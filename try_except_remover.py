@@ -26,7 +26,7 @@ def update_lines(data):
                 try1=True
                 num2=datum[2]
                 pass
-            if "except:" in datum[1]:
+            if "except" in datum[1]:
                 except1=True
                 num2=datum[2]
                 pass
